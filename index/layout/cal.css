@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box-container{
+  display:flex;
+  background-color:rgb(243, 210, 210);
+}
+.chart{
+  background-image: url("/index/material/gradescale2.png");
+  background-repeat: no-repeat;
+  height: 200px;
+  width:50%;
+  margin-top: 50px;
+  margin-left:200px;
+}
+.screen{
+width: 50%;
+margin: 10px;
+}
+.btn{
+  margin: 20px;
+  padding: 5px 5px;
+  background-color: aqua;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  border-radius: 20px;
+  border-color: brown;
+  color: crimson;
+  cursor:pointer;
+  transition: transform 0.3sec ease-in-out;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+.res{
+  padding-left: 500px;
+}
+
+.sub{
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.math,.psy,.ch,.cs,.eng,.bng{
+  border-radius: 20px;
+  padding: 3px 3px;
+  background:antiquewhite;
+  border-color: brown;
+}
+.res{
+  padding-top:100px;
+  padding-left:600px;
+  color: brown;
+  text-shadow: 0 0 20px rgb(213, 173, 66);
+  background: transparent;
+  cursor:context-menu;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
